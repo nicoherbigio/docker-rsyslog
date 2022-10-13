@@ -1,0 +1,9 @@
+#!/bin/bash
+set -euo pipefail
+
+chown -R ${RSYSLOG_USER}:${RSYSLOG_GROUP} /var/log/docker
+
+cron
+
+rm -f /run/rsyslogd.pid
+sudo -u ${RSYSLOG_USER} -E 'rsyslogd' '-n'
