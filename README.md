@@ -4,7 +4,7 @@
 
 ## Supported tags and respective `Dockerfile` links
 
- * [`debian-bullseye`, `debian-11` (debian/11/default/Dockerfile)](https://github.com/nicoherbigio/docker-rsyslog/blob/main/debian/11/default/Dockerfile)
+ * [`debian-bullseye`, `debian-11`](https://github.com/nicoherbigio/docker-rsyslog/blob/main/debian/11/default/Dockerfile)
 
 ## How to get this image
 
